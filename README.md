@@ -6,4 +6,4 @@ Semantic image segmentation is the process of classifying each pixel into a pred
 To implement image segmentation, a U-Net-based architecture was designed to accurately segment food items on plates.
 
 ## The full description of the algorithm can be found in this 
-([Full Description can be found here](https://github.com/ehsan-honarbakhsh/Food-Segmentation/blob/main/Docs/Food%20identification%20with%20segmentation%20.pdf)
+[Full Description can be found here](https://github.com/ehsan-honarbakhsh/Food-Segmentation/blob/main/Docs/Food%20identification%20with%20segmentation%20.pdf)
