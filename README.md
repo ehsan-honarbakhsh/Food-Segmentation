@@ -16,7 +16,7 @@ Key features:
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.12+
 - Libraries:
   - TensorFlow (`tensorflow>=2.10`)
   - NumPy (`numpy`)
