@@ -32,12 +32,7 @@ pip install tensorflow numpy matplotlib pillow scipy
 
 ## Dataset
 
-The code is designed for the FoodSeg103 dataset, which contains food images and corresponding segmentation masks. The dataset structure is expected as follows:
-
-- Root directory: `/content/drive/MyDrive/FoodSeg103`
-- Images: `Images/img_dir/train/*.jpg` (training) and `Images/img_dir/test/*.jpg` (validation/test)
-- Masks: `Images/ann_dir/train/*.png` (training) and `Images/ann_dir/test/*.png` (validation/test)
-- Text files: `ImageSets/train.txt` and `ImageSets/test.txt` containing image IDs
+The code is designed for the FoodSeg103 dataset, which contains food images and corresponding segmentation masks.
 
 The dataset is split into:
 
@@ -126,8 +121,4 @@ The script outputs:
 
 The U-Net model is expected to achieve reasonable segmentation performance on the FoodSeg103 dataset, with mIoU depending on training quality and dataset complexity.
 
-## Limitations
-
-- **Computational Resources**: Large batch sizes or high-resolution images may require GPU support.
-- **Class Imbalance**: Some classes may be underrepresented, affecting mIoU; consider class weighting.
-- **Annotation**: Text annotations may overlap in dense masks; adjust fontsize or placement if needed.
+[Full Description can be found here](https://github.com/ehsan-honarbakhsh/Food-Segmentation/blob/main/Docs/Food%20identification%20with%20segmentation%20.pdf)
