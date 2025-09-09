@@ -128,8 +128,6 @@ The U-Net model is expected to achieve reasonable segmentation performance on th
 
 ## Limitations
 
-- **Training Code**: Not included in the provided snippet; requires adding model compilation and training (e.g., with sparse categorical crossentropy loss and Adam optimizer).
-- **Dataset Dependency**: Tailored for FoodSeg103; modify paths and class names for other datasets.
 - **Computational Resources**: Large batch sizes or high-resolution images may require GPU support.
 - **Class Imbalance**: Some classes may be underrepresented, affecting mIoU; consider class weighting.
 - **Annotation**: Text annotations may overlap in dense masks; adjust fontsize or placement if needed.
